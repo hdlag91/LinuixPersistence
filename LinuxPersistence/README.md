@@ -345,7 +345,7 @@ Anything saved into the `usbdata` partition can be accessed on Windows and MacOs
 <h3><b>:bangbang: Warning :bangbang:</b></h3>
 :interrobang::interrobang::interrobang:
 
-If by chance your system is taking a long time to boot up, you may have to switch to the live version, which you can save files and applications to the `usbdata` partition, but operation changes will not be saved. Slow boot time can be caused by a multitude of problems. You can [view some simple solutions](https://github.com/CPHT/ILP/blob/master/LinuxPersistence/PersistenceTrouble.md) for more information if you are having trouble. 
+If by chance your system is taking a long time to boot up, you may have to switch to the live version, which you can save files and applications to the `usbdata` partition, but operation changes will not be saved. Slow boot time can be caused by a multitude of problems. You can [view some simple solutions](https://github.com/hdlag91/LinuxPersistence/blob/master/LinuxPersistence/PersistenceTrouble.md) for more information if you are having trouble. 
 
 :interrobang::interrobang::interrobang:
 
