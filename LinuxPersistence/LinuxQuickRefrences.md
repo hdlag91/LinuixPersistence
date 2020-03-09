@@ -1,0 +1,30 @@
+## Quick References
+
+- Load into Linux.
+- Get connected to the Internet.
+- Open the terminal
+- Type `sudo add-apt-repository universe`
+- Type `sudo apt-get update`
+- `sudo add-apt-repository ppa:mkusb/ppa`
+- Press enter to continue
+- `sudo apt-get update`
+- `sudo apt install --install-recommends mkusb mkusb-nox usb-pack-efi`
+- `sudo apt-get update`
+- Plug in the usb you will write Linux to.
+- Search for the location of your new usb. Type `df` or `lsblk` in the terminal.
+- Remember the filesystem location.
+- Type `mkusb`
+- `d`
+- Click OK
+- `i`
+- `p`
+- click no or hit x
+- Select where your iso is located.
+- Choose where to flash your image to.
+- Choose `upefi`
+- Select how much persistence to allow.
+- Check Go
+- Wait for process to finish
+- Exit mkusb
+- Unmount usb
+- Shutdown and reboot into new usb flashed to.
